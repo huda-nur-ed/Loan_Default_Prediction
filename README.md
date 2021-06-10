@@ -59,7 +59,16 @@ of the neighbors are averaged uniformly or weighted
  
   
   <p><b>Building Classifier Model:</b>
-    
+    Built different classifier models such as
+
+<li>Logistic Regression
+<li>DecisionTree
+<li>Random Forest
+<li>Gradient Boosting
+<li>XG Boost
+<li>SVC
+ 
+ Logistic Regression is not giving great results,Decision Trees are had bit better than Logistic Regression,but having lesser recall value on test data.GB Classifier & XBG Classifier  have performed equally good in terms of recall  Score and Test accuracy. XGB Classifier gives the best model giving 84% recall.
   </p>
   
   <p><b>Conclusion</b>:
